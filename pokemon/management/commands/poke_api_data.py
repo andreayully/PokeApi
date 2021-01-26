@@ -43,7 +43,6 @@ def save_models(response_evolution_chain, response_pokemon, evolution_from_speci
         evolves_from=evolves_from,
         id_poke_api=response_evolution_chain['id'])
     print("evolution chain saved")
-    print(response_pokemon['id'])
     pokemon, created_pokemon = Pokemon.objects.update_or_create(
         name=response_pokemon['name'],
         weight=response_pokemon['weight'],

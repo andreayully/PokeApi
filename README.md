@@ -6,12 +6,12 @@ like name, base stats, height, weight and evolutions.
 ### To run locally
 * pre requirements Python 3.+ and Virtualenv
 1. Create virtual environment and activate environment  
-`virtualenv venv`  
+`python3 -m venv myvenv`  
 `source venv/bin/activate`
 
 2. Clone repository `git clone https://github.com/andreayully/PokeApi.git`
 
-3. Install requirements `pip install -R requirements.txt`
+3. Install requirements `pip install -r requirements.txt`
 
 4. Runserver ` python manage.py runserver`
 
